@@ -1,7 +1,9 @@
 <template>
   <div>
-    <h3>欢迎 {{name}}</h3>
-    <a href="#" @click="quit">注销登录</a>
+   <head-top>
+   <span class="head_logo">yichen-elm</span>
+   </head-top>
+   
   </div>
 </template>
 
@@ -11,7 +13,7 @@
   export default{
     data(){
       return{
-        name: ''
+      
       }
     },
     mounted(){

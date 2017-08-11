@@ -116,7 +116,7 @@
 //            }
 //          })
           
-          var data = -1;
+          var data = 1;
           if (data == -1) {
             this.tishi = "该用户不存在"
             this.showTishi = true
